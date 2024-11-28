@@ -1,4 +1,4 @@
 function processData(data) {
-    console.log('Processing data:', data);
-    return data.trim();
+    console.log('Feature branch: Processing data:', data);
+    return data.toUpperCase();
 }
